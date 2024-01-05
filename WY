@@ -1,0 +1,89 @@
+ - name: WARP1
+    type: wireguard
+    server: 162.159.192.152
+    port: 5956
+    ip: 172.16.0.2
+    private-key: UENXeAyiGoYjecNG6ziIq0bqTOgxNUql2i/i3fhtOkA=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+
+  - name: WARP2
+    type: wireguard
+    server: 162.159.195.80
+    port: 946
+    ip: 172.16.0.2
+    private-key: UENXeAyiGoYjecNG6ziIq0bqTOgxNUql2i/i3fhtOkA=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+    
+  - name: WARP3
+    type: wireguard
+    server: 162.159.195.94
+    port: 5956
+    ip: 172.16.0.2
+    private-key: UENXeAyiGoYjecNG6ziIq0bqTOgxNUql2i/i3fhtOkA=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+    
+  - name: WARP4
+    type: wireguard
+    server: 162.159.195.227
+    port: 5956
+    ip: 172.16.0.2
+    private-key: UENXeAyiGoYjecNG6ziIq0bqTOgxNUql2i/i3fhtOkA=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+  
+  - name: WARP5
+    type: wireguard
+    server: 162.159.192.20
+    port: 946
+    ip: 172.16.0.2
+    private-key: UENXeAyiGoYjecNG6ziIq0bqTOgxNUql2i/i3fhtOkA=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+  
+  - name: WARP6
+    type: wireguard
+    server: 162.159.195.223
+    port: 5956
+    ip: 172.16.0.2
+    private-key: UENXeAyiGoYjecNG6ziIq0bqTOgxNUql2i/i3fhtOkA=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+ 
+  - name: WARP7
+    type: wireguard
+    server: 162.159.195.251
+    port: 946
+    ip: 172.16.0.2
+    private-key: UENXeAyiGoYjecNG6ziIq0bqTOgxNUql2i/i3fhtOkA=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+  
+  - name: WARP8
+    type: wireguard
+    server: 162.159.192.114
+    port: 946
+    ip: 172.16.0.2
+    private-key: UENXeAyiGoYjecNG6ziIq0bqTOgxNUql2i/i3fhtOkA=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+
+  - name: WARP9
+    type: wireguard
+    server: 162.159.192.46
+    port: 946
+    ip: 172.16.0.2
+    private-key: UENXeAyiGoYjecNG6ziIq0bqTOgxNUql2i/i3fhtOkA=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+
+  - name: WARP10
+    type: wireguard
+    server: 162.159.192.122
+    port: 946
+    ip: 172.16.0.2
+    private-key: UENXeAyiGoYjecNG6ziIq0bqTOgxNUql2i/i3fhtOkA=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true

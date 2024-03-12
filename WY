@@ -16,7 +16,7 @@ dns:
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
    # - {"name":"TLS+443长久","type":"vless","server":"199.15.76.35","port":443,"uuid":"15771021-dafa-4f52-900c-d1918fdea4b0","tls":true,"servername":"warp.totowy.top","flow":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"warp.totowy.top"}}}
-    #- {"name":"CFTOTO2","type":"vless","server":"cdn.didi8.com","port":443,"uuid":"15771021-dafa-4f52-900c-d1918fdea4b0","tls":true,"servername":"warp.totowy.top","flow":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"warp.totowy.top"}}}
+    #- {"name":"CFTOTO2","type":"vless","server":"xxxxxx","port":443,"uuid":"15771021-dafa-4f52-900c-d1918fdea4b0","tls":true,"servername":"warp.totowy.top","flow":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"warp.totowy.top"}}}
     #- {"name":"jp.anxray.top","type":"vless","server":"1jp.anxray.top","port":443,"uuid":"15771021-dafa-4f52-900c-d1918fdea4b0","tls":true,"servername":"warp.totowy.top","flow":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"warp.totowy.top"}}}
    # - {"name":"hkcf.sky2005.link","type":"vless","server":"1hkcf.sky2005.link","port":443,"uuid":"15771021-dafa-4f52-900c-d1918fdea4b0","tls":true,"servername":"warp.totowy.top","flow":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"warp.totowy.top"}}}
     #- {"name":"laow.186507.workers.dev","type":"vless","server":"131.186.27.200","port":80,"uuid":"15771021-dafa-4f52-900c-d1918fdea4b0","tls":false,"servername":"laow.186507.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"laow.186507.workers.dev"}},"client-fingerprint":"randomized"}

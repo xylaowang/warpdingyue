@@ -9,4 +9,4 @@ proxies:
      - {"name":"jp.anxray.top","type":"vless","server":"1jp.anxray.top","port":443,"uuid":"15771021-dafa-4f52-900c-d1918fdea4b0","tls":true,"servername":"warp.totowy.top","flow":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"warp.totowy.top"}}}
      - {"name":"hkcf.sky2005.link","type":"vless","server":"1hkcf.sky2005.link","port":443,"uuid":"15771021-dafa-4f52-900c-d1918fdea4b0","tls":true,"servername":"warp.totowy.top","flow":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"warp.totowy.top"}}}
  
-     - {"name":"TLS+443+csgo","type":"vless","server":"www.csgo.com","port":443,"uuid":"15771021-dafa-4f52-900c-d1918fdea4b0","tls":true,"servername":"warp.totowy.top","flow":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"warp.totowy.top"}}}
+     - {name: csgo+tls, server: www.csgo.com, port: 443, client-fingerprint: random, type: vless, uuid: 15771021-dafa-4f52-900c-d1918fdea4b0 tls: true, tfo: false, skip-cert-verify: true, servername: warp.totowy.top, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.io", headers: {Host: warp.totowy.top}}, udp: true}

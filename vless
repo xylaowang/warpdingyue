@@ -1,3 +1,19 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+dns:
+  enabled: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
 proxies:
    # - {"name":"TLS+443长久","type":"vless","server":"csgo.com","port":443,"uuid":"15771021-dafa-4f52-900c-d1918fdea4b0","tls":true,"servername":"warp.totowy.top","flow":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"warp.totowy.top"}}}
    # - {"name":"1.onflashdrive远程","type":"vless","server":"1.totowy.onflashdrive.app","port":443,"uuid":"15771021-dafa-4f52-900c-d1918fdea4b0","tls":true,"servername":"cf.totowy.onflashdrive.app","flow":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf.totowy.onflashdrive.app"}}}

@@ -16,7 +16,7 @@ dns:
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
   
-    - {"name":"WARP1","type":"wireguard","server":"185.107.56.130","port":51820,"udp":true,"ip":"10.2.0.2","private-key":"aQ8bxW84kPY54cmd75U9rIHzg/mlpV1mJluXdm/6hFI=","public-key":"OE1KH/IT5VnzhZCkqsLnV9E2LQmomDIT1/NuUbf620E=","dns":["10.2.0.1"],"mtu":1280,"remote-dns-resolve":true}
+    - {"name":"WARP1","type":"wireguard","server":"169.150.218.137","port":51820,"udp":true,"ip":"10.2.0.2","private-key":"SEDbsDKNfTOThcV9PHPUa0Lk1CEgTx7uQt0+lF5COVY=","public-key":"p3GNfkhyld5v3cODG9SVHjYCgFAzXfF4717xTxs6n3o=","dns":["10.2.0.1"],"mtu":1280,"remote-dns-resolve":true}
     - {"name":"WARP2","type":"wireguard","server":"[2606:4700:d1::2d20:45a4:844a:d4a2]","port":880,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:87ac:1148:aca5:7eb5:fa21","private-key":"kGlVcqp120wE1UyTjj0AyIXtbwEnMSov/UH9SU4zmWc=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
     - {"name":"WARP3","type":"wireguard","server":"2606:4700:d1::210a:88c9:86fa:75c6","port":880,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:87ac:1148:aca5:7eb5:fa21","private-key":"kGlVcqp120wE1UyTjj0AyIXtbwEnMSov/UH9SU4zmWc=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}
     - {"name":"WARP4","type":"wireguard","server":"2606:4700:d0::3451:00c3:b827:e41f","port":880,"udp":true,"ip":"172.16.0.2","ipv6":"2606:4700:110:87ac:1148:aca5:7eb5:fa21","private-key":"kGlVcqp120wE1UyTjj0AyIXtbwEnMSov/UH9SU4zmWc=","public-key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","dns":["1.1.1.1"],"mtu":1280,"remote-dns-resolve":true}

@@ -15,7 +15,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-    - {name: 优选域名wto, server: www.wto.org, port: 443, client-fingerprint: random, type: vless, uuid: 15771021-dafa-4f52-900c-d1918fdea4b0, tls: true, tfo: false, skip-cert-verify: true, servername: cf.totowy.cloudns.ch, network: ws, ws-opts: {path: "/?proxyip=v1v1.ydns.eu", headers: {Host: cf.totowy.cloudns.ch}}, udp: true}
+    - {name: 优选域名wto, server: www.wto.org, port: 443, client-fingerprint: random, type: vless, uuid: 15771021-dafa-4f52-900c-d1918fdea4b0, tls: true, tfo: false, skip-cert-verify: true, servername: totowy.us.kg, network: ws, ws-opts: {path: "/?proxyip=v1v1.ydns.eu", headers: {Host: totowy.us.kg}}, udp: true}
     - {name: 优选域名visa, server: www.visa.com.sg, port: 443, client-fingerprint: random, type: vless, uuid: 15771021-dafa-4f52-900c-d1918fdea4b0, tls: true, tfo: false, skip-cert-verify: true, servername: cf.totowy.cloudns.ch, network: ws, ws-opts: {path: "/?proxyip=v1v1.ydns.eu", headers: {Host: cf.totowy.cloudns.ch}}, udp: true}
     - {name: 优选域名ipsb, server: ip.sb, port: 443, client-fingerprint: random, type: vless, uuid: 15771021-dafa-4f52-900c-d1918fdea4b0, tls: true, tfo: false, skip-cert-verify: true, servername: cf.totowy.cloudns.ch, network: ws, ws-opts: {path: "/?proxyip=/?proxyip=v1v1.ydns.eu", headers: {Host: cf.totowy.cloudns.ch}}, udp: true}
     - {name: cfnatHK, server: 127.0.0.1, port: 1234, client-fingerprint: random, type: vless, uuid: 15771021-dafa-4f52-900c-d1918fdea4b0, tls: true, tfo: false, skip-cert-verify: true, servername: cf.totowy.cloudns.ch, network: ws, ws-opts: {path: "/?proxyip=v1v1.ydns.eu", headers: {Host: cf.totowy.cloudns.ch}}, udp: true}

@@ -21,19 +21,4 @@ proxies:
 #    - {"name":"869162","type":"wireguard","server":"185.107.56.154","port":51820,"udp":true,"ip":"10.2.0.2","private-key":"8DTJtFgpNErZKkrZiqZANJde2nqY8dzE7FxJJvTnrG8=","public-key":"hc5/jolTT72oU7vbiFruJ20LtWU2I/T19E3/15ax6yw=","dns":["10.2.0.1"]}   
      - {"type":"anytls","name":"AnyTLS 23.105.219.21:8443","server":"23.105.219.21","port":8443,"password":"76132000","":"undefined"}
      - {"type":"anytls","name":"AnyTLSv6","server":"2607:8700:5500:76d5::2","port":8443,"password":"76132000","":"undefined"}
-{
-  "outbounds": [
-    {
-      "tag": "AnyTLS 23.105.219.21:8443",
-      "type": "anytls",
-      "server": "23.105.219.21",
-      "server_port": 8443,
-      "password": "76132000",
-      "tls": {
-        "enabled": true,
-        "server_name": "23.105.219.21",
-        "insecure": false
-      }
-    }
-  ]
-}
+

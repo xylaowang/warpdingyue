@@ -1,6 +1,16 @@
-
-proxies:
-#    - {name: 优选域名wto, server: www.wto.org, port: 443, client-fingerprint: random, type: vless, uuid: 15771021-dafa-4f52-900c-d1918fdea4b0, tls: true, tfo: false, skip-cert-verify: true, servername: cf.totowy.cloudns.ch, network: ws, ws-opts: {path: "/?proxyip=v1v1.ydns.eu", headers: {Host: cf.totowy.cloudns.ch}}, udp: true}
-#   vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@162.159.6.75:80?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=us.laoyoutiao.link&path=Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%40WangCai2%2520%2F&type=ws#gcp1
-#vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@162.159.209.75:80?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=us.laoyoutiao.link&path=Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%40WangCai2%2520%2F&type=ws#gcp2
-  - {"type":"anytls","name":"AnyTLS 23.105.219.21:8443","server":"23.105.219.21","port":8443,"password":"76132000","":"undefined"}
+{
+  "outbounds": [
+    {
+      "tag": "AnyTLS 23.105.219.21:8443",
+      "type": "anytls",
+      "server": "23.105.219.21",
+      "server_port": 8443,
+      "password": "76132000",
+      "tls": {
+        "enabled": true,
+        "server_name": "23.105.219.21",
+        "insecure": false
+      }
+    }
+  ]
+}

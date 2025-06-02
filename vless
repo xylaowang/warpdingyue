@@ -1,21 +1,17 @@
-
-proxies:
-  
-
-
 {
-  "outbounds": [
-    {
-      "tag": "AnyTLS 23.105.219.21:8443",
-      "type": "anytls",
-      "server": "23.105.219.21",
-      "server_port": 8443,
-      "password": "76132000",
-      "tls": {
-        "enabled": true,
-        "server_name": "23.105.219.21",
-        "insecure": false
-      }
-    }
-  ]
+  "tag": "自建",
+  "type": "anytls",
+  "server": "23.105.219.21",
+  "server_port": 8443,
+  "password": "76132000",
+  "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "d1--cn-gotcha204-3.bilivideo.com"
+  },
+  "groupid": "07446207-eefb-4442-9f64-308ced47ce31",
+  "latency": "261",
+  "attach": "",
+  "outlet_ip": "",
+  "outlet_region": ""
 }

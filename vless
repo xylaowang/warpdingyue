@@ -1,12 +1,17 @@
 {
-  "tag": "自建",
-  "type": "anytls",
   "server": "23.105.219.21",
   "server_port": 8443,
+  "tag": "自建节点",
+  "type": "anytls",
+  "attach": "",
   "password": "76132000",
   "tls": {
     "enabled": true,
-    "insecure": false,
-    "server_name": "23.105.219.21"
-  }
+    "server_name": "23.105.219.21",
+    "insecure": true
+  },
+  "groupid": "d6b29766-8c8b-4ea1-8ebb-230dd308784e",
+  "latency": "167",
+  "outlet_ip": "",
+  "outlet_region": ""
 }

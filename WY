@@ -21,4 +21,4 @@ proxies:
      - {"name":"869162","type":"wireguard","server":"185.107.56.154","port":51820,"udp":true,"ip":"10.2.0.2","private-key":"8DTJtFgpNErZKkrZiqZANJde2nqY8dzE7FxJJvTnrG8=","public-key":"hc5/jolTT72oU7vbiFruJ20LtWU2I/T19E3/15ax6yw=","dns":["10.2.0.1"]}   
      - {"type":"anytls","name":"自建节点v4","server":"23.105.219.21","port":8443,"password":"76132000","":"undefined","tls":["enabled": true,"server_name":"23.105.219.21","insecure":true]}
      - {"type":"anytls","name":"自建V6","server":"2607:8700:5500:76d5::2","port":8443,"password":"76132000","":"undefined"}
-     - {"server": "23.105.219.21","server_port": 8443,"tag": "自建节点V4","type": "anytls","attach": "","password": "76132000","tls": "enabled": true,"server_name": "23.105.219.21","insecure": true,"groupid": "d6b29766-8c8b-4ea1-8ebb-230dd308784e","latency": "167","outlet_ip": "","outlet_region": ""}
+#     - {"server": "23.105.219.21","server_port": 8443,"tag": "自建节点V4","type": "anytls","attach": "","password": "76132000","tls": "enabled": true,"server_name": "23.105.219.21","insecure": true,"groupid": "d6b29766-8c8b-4ea1-8ebb-230dd308784e","latency": "167","outlet_ip": "","outlet_region": ""}

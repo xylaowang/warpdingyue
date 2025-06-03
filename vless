@@ -1,5 +1,4 @@
-{
-  "server": "23.105.219.21",
+ "server": "23.105.219.21",
   "server_port": 8443,
   "tag": "自建节点",
   "type": "anytls",
@@ -14,4 +13,3 @@
   "latency": "167",
   "outlet_ip": "",
   "outlet_region": ""
-}

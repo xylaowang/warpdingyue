@@ -1,17 +1,17 @@
 {
-  "groupid": "d6b29766-8c8b-4ea1-8ebb-230dd308784e",
+  "groupid": "ac959379-38c6-4dd6-b7a0-46f9d5b7fc97",
   "attach": "",
   "latency": "85",
   "outlet_ip": "",
   "outlet_region": "",
-  "tag": "自己搞anytls",
+  "tag": "[GCP]🇸🇬 新加坡|singbox| anytls",
   "type": "anytls",
-  "server": "23.105.219.21",
-  "server_port": 8443,
-  "password": "76132000",
+  "server": "1.1.1.1",
+  "server_port": 12345,
+  "password": "41b980c8-9271-4357-aed3-1254b2520caa",
   "tls": {
     "enabled": true,
-    "server_name": "23.105.219.21",
+    "server_name": "1.1.1.1",
     "insecure": true
   }
 }

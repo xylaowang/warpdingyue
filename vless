@@ -1,19 +1,6 @@
 {
   "outbounds": [
-    {
-      "type": "anytls",
-      "tag": "自建搬瓦工v4",
-      "server": "23.105.219.21",
-      "server_port": 8443,
-      "password": "76132000",
-      "idle_session_check_interval": "30s",
-      "idle_session_timeout": "30s",
-      "min_idle_session": 5,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": ""
-      }
+    
     {
       "type": "anytls",
       "tag": "自建搬瓦工v6",
@@ -28,4 +15,5 @@
         "insecure": true,
         "server_name": "" }
   ]
+}
 }

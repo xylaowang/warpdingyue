@@ -14,11 +14,6 @@
         "insecure": true,
         "server_name": ""
       }
-    }
-  ]
-
-
-  "outbounds": [
     {
       "type": "anytls",
       "tag": "自建搬瓦工v6",
@@ -31,8 +26,6 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": ""
-      }
-    }
+        "server_name": "" }
   ]
 }

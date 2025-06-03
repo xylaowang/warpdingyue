@@ -1,17 +1,19 @@
 {
-  "groupid": "ac959379-38c6-4dd6-b7a0-46f9d5b7fc97",
-  "attach": "",
-  "latency": "85",
-  "outlet_ip": "",
-  "outlet_region": "",
-  "tag": "[GCP]🇸🇬 新加坡|singbox| anytls",
-  "type": "anytls",
-  "server": "1.1.1.1",
-  "server_port": 12345,
-  "password": "41b980c8-9271-4357-aed3-1254b2520caa",
-  "tls": {
-    "enabled": true,
-    "server_name": "1.1.1.1",
-    "insecure": true
-  }
+  "outbounds": [
+    {
+      "type": "anytls",
+      "tag": "改自己的",
+      "server": "1.1.1.1",
+      "server_port": 1234,
+      "password": "123456",
+      "idle_session_check_interval": "30s",
+      "idle_session_timeout": "30s",
+      "min_idle_session": 5,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": ""
+      }
+    }
+  ]
 }

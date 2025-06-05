@@ -1,19 +1,4 @@
-mixed-port: 7890
-allow-lan: true
-bind-address: '*'
-mode: rule
-log-level: info
-external-controller: '127.0.0.1:9090'
-dns:
-    enable: true
-    ipv6: false
-    default-nameserver: [1.1.1.1, 8.8.8.8]
-    enhanced-mode: fake-ip
-    fake-ip-range: 198.18.0.1/16
-    use-hosts: true
-    nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
-    fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
-    fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
+
 proxies:
   
 #     - {"name":"WARP1","type":"wireguard","server":"169.150.218.137","port":51820,"udp":true,"ip":"10.2.0.2","private-key":"SEDbsDKNfTOThcV9PHPUa0Lk1CEgTx7uQt0+lF5COVY=","public-key":"p3GNfkhyld5v3cODG9SVHjYCgFAzXfF4717xTxs6n3o=","dns":["223.6.6.6"],"mtu":1280}
@@ -22,5 +7,5 @@ proxies:
 #     - {"type":"anytls","name":"自建节点v4","server":"23.105.219.21","port":8443,"password":"76132000","":"undefined","tls": true,"server_name":"23.105.219.21","insecure":true]}
 #     - {"type":"anytls","name":"自建V6","server":"2607:8700:5500:76d5::2","port":8443,"password":"76132000","":"undefined"}
  #    - {"type":"anytls","name":"自建VVV6","server":"2607:8700:5500:76d5::2","port":8443,"password":"76132000","udp":true}
-     - {"name":"建节点v444","type":"anytls","server":"23.105.219.21","port":8443,"password":"76132000","udp":true,"client-fingerprint":"chrome","skip-cert-verify":true,"sni":"d1--cn-gotcha204-3.bilivideo.com"}
-
+     - {"name":"建节点v44","type":"anytls","server":"23.105.219.21","port":8443,"password":"76132000","udp":true,"client-fingerprint":"chrome","skip-cert-verify":true,"sni":"d1--cn-gotcha204-3.bilivideo.com"}
+     - {"name":"建节点v666","type":"anytls","server":"2607:8700:5500:76d5::2","port":8443,"password":"76132000","udp":true,"client-fingerprint":"chrome","skip-cert-verify":true,"sni":"d1--cn-gotcha204-3.bilivideo.com"}

@@ -7,5 +7,5 @@ proxies:
 #     - {"type":"anytls","name":"自建节点v4","server":"23.105.219.21","port":8443,"password":"76132000","":"undefined","tls": true,"server_name":"23.105.219.21","insecure":true]}
 #     - {"type":"anytls","name":"自建V6","server":"2607:8700:5500:76d5::2","port":8443,"password":"76132000","":"undefined"}
  #    - {"type":"anytls","name":"自建VVV6","server":"2607:8700:5500:76d5::2","port":8443,"password":"76132000","udp":true}
-     - {"name":"建节点v44","type":"anytls","server":"23.105.219.21","port":8443,"password":"76132000","udp":true,"client-fingerprint":"chrome","skip-cert-verify":true,"sni":"d1--cn-gotcha204-3.bilivideo.com"}
-     - {"name":"建节点v666","type":"anytls","server":"2607:8700:5500:76d5::2","port":8443,"password":"76132000","udp":true,"client-fingerprint":"chrome","skip-cert-verify":true,"sni":"d1--cn-gotcha204-3.bilivideo.com"}
+#     - {"name":"建节点v44","type":"anytls","server":"23.105.219.21","port":8443,"password":"76132000","udp":true,"client-fingerprint":"chrome","skip-cert-verify":true,"sni":"d1--cn-gotcha204-3.bilivideo.com"}
+#     - {"name":"建节点v666","type":"anytls","server":"2607:8700:5500:76d5::2","port":8443,"password":"76132000","udp":true,"client-fingerprint":"chrome","skip-cert-verify":true,"sni":"d1--cn-gotcha204-3.bilivideo.com"}

@@ -9,3 +9,4 @@ proxies:
  #    - {"type":"anytls","name":"自建VVV6","server":"2607:8700:5500:76d5::2","port":8443,"password":"76132000","udp":true}
 #     - {"name":"建节点v44","type":"anytls","server":"23.105.219.21","port":8443,"password":"76132000","udp":true,"client-fingerprint":"chrome","skip-cert-verify":true,"sni":"d1--cn-gotcha204-3.bilivideo.com"}
 #     - {"name":"建节点v666","type":"anytls","server":"2607:8700:5500:76d5::2","port":8443,"password":"76132000","udp":true,"client-fingerprint":"chrome","skip-cert-verify":true,"sni":"d1--cn-gotcha204-3.bilivideo.com"}
+hysteria2://212acee2-0f71-4995-be04-c33027be@[2a01:4f8:211:2312:1234:4321:c86c:1]:23773?peer=www.bing.com&insecure=1#hax%20EU1

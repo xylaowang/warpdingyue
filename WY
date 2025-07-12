@@ -12,4 +12,4 @@ proxies:
 
       - {"type":"hysteria2","name":"hy2-srv30304","server":"2a02:180:6:1::79","port":21801,"password":"da7e757d-b674-49b9-af7b-d87738e98510","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
 
-      - {"type":"hysteria2","name":"euserv04","server":"2a02:180:6:1::17a1","port":9528,"password":"abcd1234","skip-cert-verify":true,"tfo":false}
+ #     - {"type":"hysteria2","name":"euserv04","server":"2a02:180:6:1::17a1","port":9528,"password":"abcd1234","skip-cert-verify":true,"tfo":false}

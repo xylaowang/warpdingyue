@@ -1,34 +1,125 @@
-{
-  "outbounds": [
-    {
-      "type": "anytls",
-      "tag": "自建v4",
-      "server": "23.105.219.21",
-      "server_port": 8443,
-      "password": "76132000",
-      "idle_session_check_interval": "30s",
-      "idle_session_timeout": "30s",
-      "min_idle_session": 5,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": ""
-      }
-    },
-    {
-      "type": "anytls",
-      "tag": "自建v6",
-      "server": "2607:8700:5500:76d5::2",
-      "server_port": 8443,
-      "password": "76132000",
-      "idle_session_check_interval": "30s",
-      "idle_session_timeout": "30s",
-      "min_idle_session": 5,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": ""
-      }
-    }
-  ]
-}
+port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+unified-delay: true
+global-client-fingerprint: chrome
+dns:
+  enable: false
+  listen: :53
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver: 
+    - 223.5.5.5
+    - 8.8.8.8
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fallback:
+    - https://1.0.0.1/dns-query
+    - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+
+proxies:
+- name: vless-reality-vision-srv30304               
+  type: vless
+  server: 2a02:180:6:1::79                           
+  port: 40576                                
+  uuid: da7e757d-b674-49b9-af7b-d87738e98510   
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.yahoo.com                 
+  reality-opts: 
+    public-key: anHZR3lDO5RsFl7gIV8kPMTEAwuHAh_OzZpNhcsRewE    
+    short-id: beff091e                    
+  client-fingerprint: chrome                  
+
+- name: vmess-ws-srv30304                         
+  type: vmess
+  server: 2a02:180:6:1::79                        
+  port: 2086                                     
+  uuid: da7e757d-b674-49b9-af7b-d87738e98510       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: www.bing.com                    
+  ws-opts:
+    path: "da7e757d-b674-49b9-af7b-d87738e98510-vm"                             
+    headers:
+      Host: www.bing.com                     
+
+
+
+
+
+- name: hysteria2-srv30304                            
+  type: hysteria2                                      
+  server: 2a02:180:6:1::79                               
+  port: 21801                                
+  password: da7e757d-b674-49b9-af7b-d87738e98510                          
+  alpn:
+    - h3
+  sni: www.bing.com                               
+  skip-cert-verify: true
+  fast-open: true
+
+- name: tuic5-srv30304                            
+  server: 2a02:180:6:1::79                      
+  port: 37429                                    
+  type: tuic
+  uuid: da7e757d-b674-49b9-af7b-d87738e98510       
+  password: da7e757d-b674-49b9-af7b-d87738e98510   
+  alpn: [h3]
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+  sni: www.bing.com                                
+  skip-cert-verify: true
+
+proxy-groups:
+- name: 负载均衡
+  type: load-balance
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+    - vless-reality-vision-srv30304                              
+    - vmess-ws-srv30304
+    - hysteria2-srv30304
+    - tuic5-srv30304
+
+- name: 自动选择
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+    - vless-reality-vision-srv30304                              
+    - vmess-ws-srv30304
+    - hysteria2-srv30304
+    - tuic5-srv30304
+    
+- name: 🌍选择代理节点
+  type: select
+  proxies:
+    - 负载均衡                                         
+    - 自动选择
+    - DIRECT
+    - vless-reality-vision-srv30304                              
+    - vmess-ws-srv30304
+    - hysteria2-srv30304
+    - tuic5-srv30304
+rules:
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,🌍选择代理节点

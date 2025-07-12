@@ -9,7 +9,62 @@ proxies:
  #    - {"type":"anytls","name":"自建VVV6","server":"2607:8700:5500:76d5::2","port":8443,"password":"76132000","udp":true}
 #     - {"name":"建节点v44","type":"anytls","server":"23.105.219.21","port":8443,"password":"76132000","udp":true,"client-fingerprint":"chrome","skip-cert-verify":true,"sni":"d1--cn-gotcha204-3.bilivideo.com"}
 #     - {"name":"建节点v666","type":"anytls","server":"2607:8700:5500:76d5::2","port":8443,"password":"76132000","udp":true,"client-fingerprint":"chrome","skip-cert-verify":true,"sni":"d1--cn-gotcha204-3.bilivideo.com"}
+- name: vless-reality-vision-srv30304               
+  type: vless
+  server: 2a02:180:6:1::79                           
+  port: 40576                                
+  uuid: da7e757d-b674-49b9-af7b-d87738e98510   
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.yahoo.com                 
+  reality-opts: 
+    public-key: anHZR3lDO5RsFl7gIV8kPMTEAwuHAh_OzZpNhcsRewE    
+    short-id: beff091e                    
+  client-fingerprint: chrome                  
 
-      - {"type":"hysteria2","name":"hy2-srv30304","server":"2a02:180:6:1::79","port":21801,"password":"da7e757d-b674-49b9-af7b-d87738e98510","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+- name: vmess-ws-srv30304                         
+  type: vmess
+  server: 2a02:180:6:1::79                        
+  port: 2086                                     
+  uuid: da7e757d-b674-49b9-af7b-d87738e98510       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: www.bing.com                    
+  ws-opts:
+    path: "da7e757d-b674-49b9-af7b-d87738e98510-vm"                             
+    headers:
+      Host: www.bing.com                     
 
- #     - {"type":"hysteria2","name":"euserv04","server":"2a02:180:6:1::17a1","port":9528,"password":"abcd1234","skip-cert-verify":true,"tfo":false}
+
+
+
+
+- name: hysteria2-srv30304                            
+  type: hysteria2                                      
+  server: 2a02:180:6:1::79                               
+  port: 21801                                
+  password: da7e757d-b674-49b9-af7b-d87738e98510                          
+  alpn:
+    - h3
+  sni: www.bing.com                               
+  skip-cert-verify: true
+  fast-open: true
+
+- name: tuic5-srv30304                            
+  server: 2a02:180:6:1::79                      
+  port: 37429                                    
+  type: tuic
+  uuid: da7e757d-b674-49b9-af7b-d87738e98510       
+  password: da7e757d-b674-49b9-af7b-d87738e98510   
+  alpn: [h3]
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+  sni: www.bing.com                                
+  skip-cert-verify: true

@@ -1,0 +1,128 @@
+port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+unified-delay: true
+global-client-fingerprint: chrome
+dns:
+  enable: false
+  listen: :53
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver: 
+    - 223.5.5.5
+    - 8.8.8.8
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fallback:
+    - https://1.0.0.1/dns-query
+    - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+
+proxies:
+- name: vless-reality-vision-racknerd-2f16faa               
+  type: vless
+  server: 148.135.81.135                           
+  port: 10354                                
+  uuid: 61e468f8-9ce5-4423-a525-a05ce7fcc495   
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.yahoo.com                 
+  reality-opts: 
+    public-key: OW0O2-85S1YnPWTMED-7dbOF9P7Oc_oaES1xkAJ9mUU    
+    short-id: dce7f082                    
+  client-fingerprint: chrome                  
+
+- name: vmess-ws-racknerd-2f16faa                         
+  type: vmess
+  server: rn.totowy.dpdns.org                        
+  port: 2083                                     
+  uuid: 61e468f8-9ce5-4423-a525-a05ce7fcc495       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: rn.totowy.dpdns.org                    
+  ws-opts:
+    path: "61e468f8-9ce5-4423-a525-a05ce7fcc495-vm"                             
+    headers:
+      Host: rn.totowy.dpdns.org                     
+
+
+
+
+
+- name: hysteria2-racknerd-2f16faa                            
+  type: hysteria2                                      
+  server: rn.totowy.dpdns.org                               
+  port: 33285                                
+  password: 61e468f8-9ce5-4423-a525-a05ce7fcc495                          
+  alpn:
+    - h3
+  sni: rn.totowy.dpdns.org                               
+  skip-cert-verify: false
+  fast-open: true
+
+- name: tuic5-racknerd-2f16faa                            
+  server: rn.totowy.dpdns.org                      
+  port: 48651                                    
+  type: tuic
+  uuid: 61e468f8-9ce5-4423-a525-a05ce7fcc495       
+  password: 61e468f8-9ce5-4423-a525-a05ce7fcc495   
+  alpn: [h3]
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+  sni: rn.totowy.dpdns.org                                
+  skip-cert-verify: false
+
+proxy-groups:
+- name: 负载均衡
+  type: load-balance
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+    - vless-reality-vision-racknerd-2f16faa                              
+    - vmess-ws-racknerd-2f16faa
+    - hysteria2-racknerd-2f16faa
+    - tuic5-racknerd-2f16faa
+
+- name: 自动选择
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+    - vless-reality-vision-racknerd-2f16faa                              
+    - vmess-ws-racknerd-2f16faa
+    - hysteria2-racknerd-2f16faa
+    - tuic5-racknerd-2f16faa
+    
+- name: 🌍选择代理节点
+  type: select
+  proxies:
+    - 负载均衡                                         
+    - 自动选择
+    - DIRECT
+    - vless-reality-vision-racknerd-2f16faa                              
+    - vmess-ws-racknerd-2f16faa
+    - hysteria2-racknerd-2f16faa
+    - tuic5-racknerd-2f16faa
+rules:
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,🌍选择代理节点
+
+  - {"type":"vless","name":"vless+xhttp+reality","server":"rn.totowy.dpdns.org","port":39940,"uuid":"37c01a03-ced6-430b-ed43-088abee706af","tls":true,"client-fingerprint":"chrome","skip-cert-verify":false,"reality-opts":{"public-key":"USLgBEFqGKCQoTtMlvdQZuvVfxuWBW3qcKUYNMy7OF0","short-id":"b4654b7b"},"network":"xhttp","xhttp-opts":{"path":"/"},"servername":"www.yahoo.com"}
+  - {"type":"anytls","name":"anytls-racknerd","server":"148.135.81.135","port":50494,"password":"954bb6d4-b2e4-4c76-b3de-7ccaba91d6ba","skip-cert-verify":true}

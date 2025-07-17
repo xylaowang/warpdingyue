@@ -86,6 +86,15 @@ proxies:
   sni: rn.totowy.dpdns.org                                
   skip-cert-verify: false
 
+- name: anytls-racknerd                            
+  type: anytls                                      
+  server: 148.135.81.135                               
+  port: 50494                                
+  password: 954bb6d4-b2e4-4c76-b3de-7ccaba91d6ba                                                      
+  skip-cert-verify: true
+
+
+
 proxy-groups:
 - name: 负载均衡
   type: load-balance
@@ -119,6 +128,7 @@ proxy-groups:
     - vmess-ws-racknerd-2f16faa
     - hysteria2-racknerd-2f16faa
     - tuic5-racknerd-2f16faa
+    - anytls-racknerd
 rules:
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT

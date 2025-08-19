@@ -87,19 +87,7 @@ proxies:
   skip-cert-verify: true
 
 
-- type:vless
-  name:新加坡-AWS2-xhttp
-  server:sg.scloud.edu.kg
-  port:38626
-  uuid:20a9e92b-dac7-496f-ac38-0f9ef7ead6d9
-  tls:true
-  client-fingerprint:chrome
-  alpn:["default"]
-  skip-cert-verify:false
-  reality-opts:{"public-key":"BkL5yWxf77PaorYLZGYYOUwXPzXRJDk8ds409G0rOGU","short-id":"87","_spider-x":"/77PaorYLZGYYOUwXPzX"}
-  network:xhttp
-  xhttp-opts:{"path":"/"}
-  servername:yahoo.com
+- {"type":"vless","name":"新加坡-AWS2-xhttp","server":"sg.scloud.edu.kg","port":38626,"uuid":"20a9e92b-dac7-496f-ac38-0f9ef7ead6d9","tls":true,"client-fingerprint":"chrome","alpn":["default"],"skip-cert-verify":false,"reality-opts":{"public-key":"BkL5yWxf77PaorYLZGYYOUwXPzXRJDk8ds409G0rOGU","short-id":"87","_spider-x":"/77PaorYLZGYYOUwXPzX"},"network":"xhttp","xhttp-opts":{"path":"/"},"servername":"yahoo.com"}
 
 proxy-groups:
 - name: 负载均衡

@@ -87,9 +87,13 @@ proxies:
   skip-cert-verify: true
 
 
-- {"type":"vless","name":"新加坡-AWS2-xhttp","server":"sg.scloud.edu.kg","port":38626,"uuid":"20a9e92b-dac7-496f-ac38-0f9ef7ead6d9","tls":true,"client-fingerprint":"chrome","alpn":["default"],"skip-cert-verify":false,"reality-opts":{"public-key":"BkL5yWxf77PaorYLZGYYOUwXPzXRJDk8ds409G0rOGU","short-id":"87","_spider-x":"/77PaorYLZGYYOUwXPzX"},"network":"xhttp","xhttp-opts":{"path":"/"},"servername":"yahoo.com"}
+
 - {"type":"hysteria2","name":"爪云日本hy2","server":"47.79.145.174","port":48768,"password":"8bf27de3-fab1-48bf-9ead-ae3751862226","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
-- {"type":"hysteria2","name":"裸云英鸡","server":"2a0f:9400:6162:23::6e44","port":2197,"password":"1747dc23-769a-4c6f-8f95-8f355b025fd0","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+- {"type":"hysteria2","name":"猫云法鸡V6","server":"2001:41d0:1004:1815:1266:6aff:fe59:e9c4","port":33320,"password":"6e08c330-c5d4-4b7f-ad76-b2fa51459d53","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+- {"type":"hysteria2","name":"裸云港机V6","server":"2a14:67c1:8ff0:e96::95de","port":40083,"password":"f4c5bde0-7f5d-4622-b9b8-4357741bb1db","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+- {"type":"hysteria2","name":"帕斯云新加坡V6","server":"2402:a7c0:3003:108:1c00:bff:fe00:51a","port":18889,"password":"2b963633-a505-4e03-8cd2-6215892ae7c1","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+
+
 proxy-groups:
 - name: 负载均衡
   type: load-balance

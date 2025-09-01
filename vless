@@ -1,30 +1,42 @@
-port: 7890
-allow-lan: true
-mode: rule
-log-level: info
-unified-delay: true
-global-client-fingerprint: chrome
+
+
+# ===========================
+# OpenClash 配置文件模板
+# ===========================
+
+# 常规信息
+port: 7890               # HTTP 代理端口
+socks-port: 7891         # SOCKS5 代理端口
+redir-port: 7892         # 重定向端口
+tproxy-port: 7893        # TProxy 端口
+mode: Rule               # 代理模式: Rule / Global / Direct
+log-level: info          # 日志等级: info / warning / error / debug
+allow-lan: true          # 是否允许局域网连接
+bind-address: "*"        # 绑定地址（* 代表所有）
+external-controller: 0.0.0.0:9090   # 控制面板监听端口
+secret: ""               # 面板密钥（可选）
+
+# DNS 设置
 dns:
-  enable: false
-  listen: :53
-  ipv6: true
-  enhanced-mode: fake-ip
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: false
+  enhanced-mode: fake-ip   # redir-host / fake-ip
   fake-ip-range: 198.18.0.1/16
-  default-nameserver: 
+  default-nameserver:
     - 223.5.5.5
-    - 8.8.8.8
+    - 119.29.29.29
   nameserver:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
   fallback:
-    - https://1.0.0.1/dns-query
-    - tls://dns.google
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
-    ipcidr:
-      - 240.0.0.0/4
 
+# 节点配置（示例）
 proxies:
   - {"type":"hysteria2","name":"爪云日本hy2","server":"47.79.145.174","port":48768,"password":"8bf27de3-fab1-48bf-9ead-ae3751862226","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"猫云法鸡V6","server":"2001:41d0:1004:1815:1266:6aff:fe59:e9c4","port":33320,"password":"6e08c330-c5d4-4b7f-ad76-b2fa51459d53","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
@@ -33,44 +45,32 @@ proxies:
   - {"type":"hysteria2","name":"群友德鸡","server":"2a02:180:6:1::17a1","port":9528,"password":"abcd1234","skip-cert-verify":true,"tfo":false}
   - {"type":"vless","name":"固定-vl-reality-vision-srv30304","server":"2a02:180:6:1::79","port":32516,"uuid":"651a8fdd-6fe6-4aef-b995-faec35f1fe36","tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"chrome","skip-cert-verify":false,"reality-opts":{"public-key":"1uQUMKIY763rsXQQOryjAWADKjreYGhyNFOLc5Bh4Fk","short-id":"73162782"},"network":"tcp","servername":"www.amd.com"} - {"name":"固定-vm-ws-srv30304","type":"vmess","server":"2a02:180:6:1::79","port":18650,"cipher":"auto","uuid":"651a8fdd-6fe6-4aef-b995-faec35f1fe36","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/651a8fdd-6fe6-4aef-b995-faec35f1fe36-vm","headers":{"Host":"www.bing.com"},"early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2048}}
   - {"type":"hysteria2","name":"固定-hy2-srv30304","server":"2a02:180:6:1::79","port":34149,"password":"651a8fdd-6fe6-4aef-b995-faec35f1fe36","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
-  - {"name":"固定-vmess-ws-tls-argo-srv30304-443","type":"vmess","server":"cf.877774.xyz","port":443,"cipher":"auto","uuid":"651a8fdd-6fe6-4aef-b995-faec35f1fe36","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/651a8fdd-6fe6-4aef-b995-faec35f1fe36-vm","headers":{"Host":"deji.186507.xyz"},"early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2048},"client-fingerprint":"","servername":"deji.186507.xyz"}
 
-
+# 节点组
 proxy-groups:
-- name: 负载均衡
-  type: load-balance
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  strategy: round-robin
-  proxies:
-    - vless-reality-vision-srv30304                              
-    - vmess-ws-srv30304
-    - hysteria2-srv30304
-    - tuic5-srv30304
+  - name: "自动选择"
+    type: url-test
+    proxies:
+      - "香港节点"
+      - "日本节点"
+    url: http://www.gstatic.com/generate_204
+    interval: 300
 
-- name: 自动选择
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-    - vless-reality-vision-srv30304                              
-    - vmess-ws-srv30304
-    - hysteria2-srv30304
-    - tuic5-srv30304
-    
-- name: 🌍选择代理节点
-  type: select
-  proxies:
-    - 负载均衡                                         
-    - 自动选择
-    - DIRECT
-    - vless-reality-vision-srv30304                              
-    - vmess-ws-srv30304
-    - hysteria2-srv30304
-    - tuic5-srv30304
+  - name: "手动切换"
+    type: select
+    proxies:
+      - "自动选择"
+      - "香港节点"
+      - "日本节点"
+      - DIRECT
+
+  - name: "国内直连"
+    type: select
+    proxies:
+      - DIRECT
+      - "自动选择"
+
+# 规则
 rules:
-  - GEOIP,LAN,DIRECT
-  - GEOIP,CN,DIRECT
-  - MATCH,🌍选择代理节点
-
+  - GEOIP,CN,国内直连
+  - MATCH,手动切换

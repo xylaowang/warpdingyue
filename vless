@@ -26,7 +26,6 @@ dns:
       - 240.0.0.0/4
 
 proxies:
-
 - {"type":"hysteria2","name":"爪云日本hy2","server":"47.79.145.174","port":48768,"password":"8bf27de3-fab1-48bf-9ead-ae3751862226","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
 - {"type":"hysteria2","name":"猫云法鸡V6","server":"2001:41d0:1004:1815:1266:6aff:fe59:e9c4","port":33320,"password":"6e08c330-c5d4-4b7f-ad76-b2fa51459d53","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
 - {"type":"hysteria2","name":"裸云港机V6","server":"2a14:67c1:8ff0:e96::95de","port":40083,"password":"f4c5bde0-7f5d-4622-b9b8-4357741bb1db","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}

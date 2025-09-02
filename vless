@@ -46,7 +46,8 @@ proxies:
   - {"type":"hysteria2","name":"固定-hy2-srv30304","server":"2a02:180:6:1::79","port":34149,"password":"651a8fdd-6fe6-4aef-b995-faec35f1fe36","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"name":"vmess-877774-443","type":"vmess","server":"cf.877774.xyz","port":443,"cipher":"auto","uuid":"651a8fdd-6fe6-4aef-b995-faec35f1fe36","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/651a8fdd-6fe6-4aef-b995-faec35f1fe36-vm","headers":{"Host":"deji.186507.xyz"},"early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2048},"client-fingerprint":"","servername":"deji.186507.xyz"}
   - {"name":"SAP","type":"vmess","server":"cf.877774.xyz","port":443,"cipher":"auto","uuid":"4d9aaf93-178f-4cd6-83be-e7765d98641b","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"sap.186507.xyz"}},"client-fingerprint":"","servername":"sap.186507.xyz"}
-
+  - {"type":"hysteria2","name":"法鸡LXC","server":"2001:41d0:303:3e79:be24:11ff:fee3:c1d1","port":43574,"password":"328b4584-d039-4f16-9b9d-031117d3b719","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+  - {"type":"hysteria2","name":"帕斯云美鸡","server":"66.181.36.236","port":18650,"password":"df2c6cd6-61d0-408a-a1da-a93f7bc8e37c","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
 
 
 # 节点组

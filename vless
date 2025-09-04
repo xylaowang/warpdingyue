@@ -41,14 +41,12 @@ proxies:
   - {"type":"hysteria2","name":"爪云日本hy2","server":"47.79.145.174","port":48768,"password":"8bf27de3-fab1-48bf-9ead-ae3751862226","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"帕斯云新加坡","server":"142.91.102.87","port":18889,"password":"2b963633-a505-4e03-8cd2-6215892ae7c1","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"群友德鸡","server":"2a02:180:6:1::17a1","port":9528,"password":"abcd1234","skip-cert-verify":true,"tfo":false}
-  - {"type":"vless","name":"固定-vl-reality","server":"2a02:180:6:1::79","port":32516,"uuid":"651a8fdd-6fe6-4aef-b995-faec35f1fe36","tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"chrome","skip-cert-verify":false,"reality-opts":{"public-key":"1uQUMKIY763rsXQQOryjAWADKjreYGhyNFOLc5Bh4Fk","short-id":"73162782"},"network":"tcp","servername":"www.amd.com"} 
-  - {"name":"固定-vm-ws-srv30304","type":"vmess","server":"2a02:180:6:1::79","port":18650,"cipher":"auto","uuid":"651a8fdd-6fe6-4aef-b995-faec35f1fe36","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/651a8fdd-6fe6-4aef-b995-faec35f1fe36-vm","headers":{"Host":"www.bing.com"},"early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2048}}
-  - {"type":"hysteria2","name":"固定-hy2-srv30304","server":"2a02:180:6:1::79","port":34149,"password":"651a8fdd-6fe6-4aef-b995-faec35f1fe36","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
-  - {"name":"vmess-877774-443","type":"vmess","server":"cf.877774.xyz","port":443,"cipher":"auto","uuid":"651a8fdd-6fe6-4aef-b995-faec35f1fe36","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/651a8fdd-6fe6-4aef-b995-faec35f1fe36-vm","headers":{"Host":"deji.186507.xyz"},"early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2048},"client-fingerprint":"","servername":"deji.186507.xyz"}
-  - {"name":"SAP","type":"vmess","server":"cf.877774.xyz","port":443,"cipher":"auto","uuid":"4d9aaf93-178f-4cd6-83be-e7765d98641b","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"sap.186507.xyz"}},"client-fingerprint":"","servername":"sap.186507.xyz"}
+ 
   - {"type":"hysteria2","name":"法鸡LXC","server":"2001:41d0:303:3e79:be24:11ff:fee3:c1d1","port":43574,"password":"328b4584-d039-4f16-9b9d-031117d3b719","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"帕斯云美鸡","server":"66.181.36.236","port":18650,"password":"df2c6cd6-61d0-408a-a1da-a93f7bc8e37c","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
-
+  - {"name":"德鸡argo","type":"vmess","server":"cf.877774.xyz","port":8443,"cipher":"auto","uuid":"19aebb35-b458-4d0c-b767-2adb39e6bb02","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/19aebb35-b458-4d0c-b767-2adb39e6bb02-vm","headers":{"Host":"deji.186507.xyz"}},"servername":"deji.186507.xyz"}
+  - {"type":"hysteria2","name":"自己德鸡hy2","server":"2a02:180:6:1::79","port":19835,"password":"19aebb35-b458-4d0c-b767-2adb39e6bb02","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+  - {"type":"tuic","name":"自己德鸡tuic","server":"2a02:180:6:1::79","port":23785,"password":"19aebb35-b458-4d0c-b767-2adb39e6bb02","uuid":"19aebb35-b458-4d0c-b767-2adb39e6bb02","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
 
 # 节点组
 proxy-groups:

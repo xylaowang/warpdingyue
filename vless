@@ -49,6 +49,9 @@ proxies:
   - {"type":"tuic","name":"自己德鸡tuic","server":"2a02:180:6:1::79","port":23785,"password":"19aebb35-b458-4d0c-b767-2adb39e6bb02","uuid":"19aebb35-b458-4d0c-b767-2adb39e6bb02","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
   - {"name":"sgargosap","type":"vmess","server":"ct.877774.xyz","port":443,"cipher":"auto","uuid":"935087c8-5860-45f6-9938-b6839d201bae","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"sgargosap.186507.xyz"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"sgargosap.186507.xyz"}
   - {"name":"USSAP","type":"vmess","server":"ct.877774.xyz","port":443,"cipher":"auto","uuid":"935087c8-5860-45f6-9938-b6839d201bae","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"ussap.186507.xyz"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"ussap.186507.xyz"}
+  - {"type":"hysteria2","name":"hy2-CT4659","server":"2604:abc0:103:415:4c53:9bff:fedd:2e6a","port":44072,"password":"7233199c-0ad1-448e-8c68-4e6a5d36596c","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+
+
 # 节点组
 proxy-groups:
   - name: "自动选择"

@@ -52,7 +52,7 @@ proxies:
   - {"type":"hysteria2","name":"帕斯云美机V6","server":"2604:abc0:103:415:4c53:9bff:fedd:2e6a","port":44072,"password":"7233199c-0ad1-448e-8c68-4e6a5d36596c","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"帕斯云德国panelV4","server":"45.152.240.26","port":6507,"password":"c4f90b469d26c628c2bbe94b17c2796d","sni":"cdn.jsdelivr.net","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"lunes美西v4","server":"23.27.249.59","port":3206,"password":"a6eb8410b6bae8da2b43c662f13f5da6","sni":"www.speedtest.net","skip-cert-verify":true,"tfo":false}
-
+  - {"type":"hysteria2","name":"裸云英国","server":"2a0f:9400:6162:0023:0000:0000:0000:6e44","port":21098,"password":"dd0680f4-6151-4211-9f23-15bf51491b0a","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
 
 
 

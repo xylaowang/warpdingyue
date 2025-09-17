@@ -53,7 +53,7 @@ proxies:
   - {"type":"hysteria2","name":"帕斯云德国panelV4","server":"45.152.240.26","port":6507,"password":"c4f90b469d26c628c2bbe94b17c2796d","sni":"cdn.jsdelivr.net","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"lunes美西V4","server":"23.27.249.57","port":3023,"password":"f3402cbfde177ae8950b03419116c926","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"裸云英国","server":"2a0f:9400:6162:23::6e44","port":56324,"password":"be0ed219-88f1-4ed8-ba36-dc5fbda33076","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
-
+  - {"type":"hysteria2","name":"infynix德国","server":"144.76.222.28","port":40076,"password":"b10dc10b-1800-4c11-a1a4-9caa1fc3a131","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
 
 
 # 节点组

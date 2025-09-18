@@ -51,7 +51,7 @@ proxies:
   - {"name":"USSAP","type":"vmess","server":"ct.877774.xyz","port":443,"cipher":"auto","uuid":"935087c8-5860-45f6-9938-b6839d201bae","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"ussap.186507.xyz"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"ussap.186507.xyz"}
   - {"type":"hysteria2","name":"帕斯云美机V6","server":"2604:abc0:103:415:4c53:9bff:fedd:2e6a","port":44072,"password":"7233199c-0ad1-448e-8c68-4e6a5d36596c","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"帕斯云德国panelV4","server":"45.152.240.26","port":6507,"password":"c4f90b469d26c628c2bbe94b17c2796d","sni":"cdn.jsdelivr.net","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"lunes德国","server":"23.27.249.57","port":3023,"password":"842212ee40ca605efdc1c91f67f69f8b","sni":"www.wikipedia.org","skip-cert-verify":true,"tfo":false}
+  - {"type":"hysteria2","name":"lunes美西","server":"23.27.249.57","port":3023,"password":"842212ee40ca605efdc1c91f67f69f8b","sni":"www.wikipedia.org","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"裸云英国","server":"2a0f:9400:6162:23::6e44","port":56324,"password":"be0ed219-88f1-4ed8-ba36-dc5fbda33076","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"infynix德国","server":"144.76.222.28","port":40076,"password":"b10dc10b-1800-4c11-a1a4-9caa1fc3a131","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
 

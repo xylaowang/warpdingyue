@@ -57,8 +57,8 @@ proxies:
   - {"name":"BWGvmess","type":"vmess","server":"38.175.217.45","port":2082,"cipher":"auto","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/6f8fff58-7e72-4d1c-a0f4-0f2a95244334-vm","headers":{"Host":"www.bing.com"}}}
   - {"type":"hysteria2","name":"BWGhy2","server":"38.175.217.45","port":62027,"password":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"tuic","name":"BWGtuic","server":"38.175.217.45","port":18554,"password":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
-
-
+  - {"type":"hysteria2","name":"CCS","server":"23.94.10.146","port":35366,"password":"d7912833-c44b-40e3-a33f-69cf4237a2b0","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+  - {"type":"hysteria2","name":"altare日本","server":"51.162.164.105","port":25019,"password":"b10dc10b-1800-4c11-a1a4-9caa1fc3a131","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
 
 
 

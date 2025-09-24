@@ -60,7 +60,7 @@ proxies:
   - {"type":"hysteria2","name":"CCS","server":"23.94.10.146","port":35366,"password":"d7912833-c44b-40e3-a33f-69cf4237a2b0","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"altare日本","server":"51.162.164.105","port":25019,"password":"b10dc10b-1800-4c11-a1a4-9caa1fc3a131","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"大使德国v4","server":"145.239.245.175","port":15247,"password":"7b0d7371-0a64-4751-bf33-9e70a9f961a0","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
-  - {"name":"大使德鸡argo","type":"vmess","server":"time.is","port":13409,"cipher":"auto","uuid":"7b0d7371-0a64-4751-bf33-9e70a9f961a0","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/7b0d7371-0a64-4751-bf33-9e70a9f961a0-vm","headers":{"Host":"www.bing.com"}}}
+  - {"name":"大使德鸡argo","type":"vmess","server":"time.is","port":8080,"cipher":"auto","uuid":"7b0d7371-0a64-4751-bf33-9e70a9f961a0","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/7b0d7371-0a64-4751-bf33-9e70a9f961a0-vm","headers":{"Host":"www.bing.com"}}}
 
 
 

@@ -59,7 +59,7 @@ proxies:
   - {"type":"tuic","name":"BWGtuic","server":"38.175.217.45","port":18554,"password":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
   - {"type":"hysteria2","name":"CCS","server":"23.94.10.146","port":35366,"password":"d7912833-c44b-40e3-a33f-69cf4237a2b0","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"altare日本","server":"51.162.164.105","port":25019,"password":"b10dc10b-1800-4c11-a1a4-9caa1fc3a131","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"大使德国v4","server":"145.239.245.175","port":15247,"password":"7b0d7371-0a64-4751-bf33-9e70a9f961a0","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+  - {"type":"tuic","name":"大使德基v6","server":"2001:41d0:700:caf::4c","port":56250,"password":"7b0d7371-0a64-4751-bf33-9e70a9f961a0","uuid":"7b0d7371-0a64-4751-bf33-9e70a9f961a0","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
   - {"name":"大使德基argo","type":"vmess","server":"time.is","port":8443,"cipher":"auto","uuid":"7b0d7371-0a64-4751-bf33-9e70a9f961a0","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/7b0d7371-0a64-4751-bf33-9e70a9f961a0-vm","headers":{"Host":"dashideji.186507.xyz"}},"servername":"dashideji.186507.xyz"}
 
 

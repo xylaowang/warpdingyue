@@ -64,7 +64,7 @@ proxies:
   - {"type":"hysteria2","name":"vps8洛杉矶","server":"2001:470:c:93f::e4bd","port":30085,"password":"a2cac3bd-abca-4bfc-a683-0b2027f6eaa8","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"韩国游戏机","server":"211.221.75.212","port":26512,"password":"b10dc10b-1800-4c11-a1a4-9caa1fc3a131","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"德国月40金币","server":"65.108.39.249","port":21118,"password":"b10dc10b-1800-4c11-a1a4-9caa1fc3a131","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
-
+  - {"type":"tuic","name":"easylink抽奖","server":"113.192.61.35","port":48920,"password":"366fc3cf-ebe7-4af6-b1b9-a538a1b5cdeb","uuid":"366fc3cf-ebe7-4af6-b1b9-a538a1b5cdeb","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
 
 
 

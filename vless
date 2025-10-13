@@ -68,8 +68,8 @@ proxies:
   - {"type":"tuic","name":"easylink抽奖","server":"113.192.61.35","port":48920,"password":"366fc3cf-ebe7-4af6-b1b9-a538a1b5cdeb","uuid":"366fc3cf-ebe7-4af6-b1b9-a538a1b5cdeb","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
   - {"name":"通用SAP企业ARGO","type":"vmess","server":"www.wto.org","port":443,"cipher":"auto","uuid":"12881ef8-4205-4842-baf7-9d0e9c0c1a66","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"6.oxxx.qzz.io"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"6.oxxx.qzz.io"}
   - {"name":"电信SAP企业ARGO","type":"vmess","server":"saas.sin.fan","port":443,"cipher":"auto","uuid":"12881ef8-4205-4842-baf7-9d0e9c0c1a66","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"6.oxxx.qzz.io"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"6.oxxx.qzz.io"}
-
-  - {"name":"mfaSAP企业ARGO","type":"vmess","server":"mfa.gov.ua","port":443,"cipher":"auto","uuid":"12881ef8-4205-4842-baf7-9d0e9c0c1a66","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"6.oxxx.qzz.io"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"6.oxxx.qzz.io"}
+  - {"name":"sidSAP企业ARGO","type":"vmess","server":"sid.ns.cloudflare.com","port":443,"cipher":"auto","uuid":"12881ef8-4205-4842-baf7-9d0e9c0c1a66","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"6.oxxx.qzz.io"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"6.oxxx.qzz.io"}
+  - {"name":"ullaSAP企业ARGO","type":"vmess","server":"ulla.ns.cloudflare.com","port":443,"cipher":"auto","uuid":"12881ef8-4205-4842-baf7-9d0e9c0c1a66","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"6.oxxx.qzz.io"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"6.oxxx.qzz.io"}
   - {"type":"hysteria2","name":"裸云甲骨文日本","server":"64.110.98.112","port":37261,"password":"3bc0a0ea-cef1-4624-ba77-d211df1a0c40","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
 
 

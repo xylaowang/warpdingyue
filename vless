@@ -71,6 +71,7 @@ proxies:
   - {"name":"sidSAP企业ARGO","type":"vmess","server":"sid.ns.cloudflare.com","port":443,"cipher":"auto","uuid":"12881ef8-4205-4842-baf7-9d0e9c0c1a66","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"6.oxxx.qzz.io"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"6.oxxx.qzz.io"}
   - {"name":"ullaSAP企业ARGO","type":"vmess","server":"ulla.ns.cloudflare.com","port":443,"cipher":"auto","uuid":"12881ef8-4205-4842-baf7-9d0e9c0c1a66","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"6.oxxx.qzz.io"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"6.oxxx.qzz.io"}
   - {"name":"移动SAP企业ARGO","type":"vmess","server":"cf.tencentapp.cn","port":443,"cipher":"auto","uuid":"12881ef8-4205-4842-baf7-9d0e9c0c1a66","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"6.oxxx.qzz.io"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"6.oxxx.qzz.io"}
+  - {"name":"移动2SAP企业ARGO","type":"vmess","server":"fn.130519.xyz","port":443,"cipher":"auto","uuid":"12881ef8-4205-4842-baf7-9d0e9c0c1a66","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"6.oxxx.qzz.io"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"6.oxxx.qzz.io"}
   - {"type":"hysteria2","name":"裸云甲骨文日本","server":"64.110.98.112","port":37261,"password":"3bc0a0ea-cef1-4624-ba77-d211df1a0c40","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
 
 

@@ -75,7 +75,7 @@ proxies:
   - {"name":"www.shopify.com-企业SAP","type":"vmess","server":"fn.130519.xyz","port":443,"cipher":"auto","uuid":"12881ef8-4205-4842-baf7-9d0e9c0c1a66","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"6.oxxx.qzz.io"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"6.oxxx.qzz.io"}
   - {"type":"hysteria2","name":"裸云甲骨文日本","server":"64.110.98.112","port":37261,"password":"3bc0a0ea-cef1-4624-ba77-d211df1a0c40","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"SAP-HY2","server":"a51248422c20f48b780a2d7e86da9b1c-74693b2896c8796f.elb.ap-southeast-1.amazonaws.com","port":443,"password":"4MKyhj1JzE","sni":"fake.example.com","skip-cert-verify":true,"tfo":false}
-
+  - {"type":"vless","name":"SAP-SG-VLESS-KYMA","server":"a5ace82fd213f49a89297bafaeee1404-1312a92ec17f9dbf.elb.ap-southeast-1.amazonaws.com","port":443,"uuid":"6f16c4c6-fb4b-4c87-8001-99791c8e268e","tls":true,"flow":"xtls-rprx-vision","skip-cert-verify":true,"network":"tcp","encryption":"none","servername":"fake.example.com"}
 
 # 节点组
 

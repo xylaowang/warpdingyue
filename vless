@@ -51,7 +51,7 @@ proxies:
  # - {"name":"电信sgargosap","type":"vmess","server":"saas.sin.fan","port":443,"cipher":"auto","uuid":"935087c8-5860-45f6-9938-b6839d201bae","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"sgargosap.186507.xyz"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"sgargosap.186507.xyz"}
 #  - {"name":"USSAP","type":"vmess","server":"time.is","port":443,"cipher":"auto","uuid":"935087c8-5860-45f6-9938-b6839d201bae","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"ussap.186507.xyz"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"ussap.186507.xyz"}
   - {"type":"hysteria2","name":"帕斯云美机V6","server":"2604:abc0:103:415:4c53:9bff:fedd:2e6a","port":44072,"password":"7233199c-0ad1-448e-8c68-4e6a5d36596c","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"帕斯云德国panelV4","server":"77.90.52.39","port":6507,"password":"1de836dabdbf1c0924ed7582cd02f7db","sni":"www.wikipedia.org","skip-cert-verify":true,"tfo":false}
+  - {"type":"hysteria2","name":"帕斯云德国panelV4","server":"77.90.52.39","port":6507,"password":"1de836dabdbf1c0924ed7582cd02f7db","sni":"cdn.jsdelivr.net","skip-cert-verify":true,"tfo":false}
 #  - {"type":"hysteria2","name":"lunes美西","server":"23.27.249.57","port":3023,"password":"842212ee40ca605efdc1c91f67f69f8b","sni":"www.wikipedia.org","skip-cert-verify":true,"tfo":false}
   
   - {"type":"hysteria2","name":"裸云英国","server":"2a0f:9400:6162:0023:0000:0000:0000:6e44","port":51652,"password":"3bc0a0ea-cef1-4624-ba77-d211df1a0c40","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}

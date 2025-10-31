@@ -65,7 +65,7 @@ proxies:
   - {"name":"nrt.xxxxxxxx.nyc.mn-企业SAP","type":"vmess","server":"nrt.xxxxxxxx.nyc.mn","port":443,"cipher":"auto","uuid":"12881ef8-4205-4842-baf7-9d0e9c0c1a66","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"6.oxxx.qzz.io"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"6.oxxx.qzz.io"}
   - {"name":"www.shopify.com-企业SAP","type":"vmess","server":"fn.130519.xyz","port":443,"cipher":"auto","uuid":"12881ef8-4205-4842-baf7-9d0e9c0c1a66","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"6.oxxx.qzz.io"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"6.oxxx.qzz.io"}
   - {"type":"hysteria2","name":"裸云甲骨文日本","server":"64.110.98.112","port":37261,"password":"3bc0a0ea-cef1-4624-ba77-d211df1a0c40","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"SAP-HY2","server":"a51248422c20f48b780a2d7e86da9b1c-74693b2896c8796f.elb.ap-southeast-1.amazonaws.com","port":443,"password":"4MKyhj1JzE","sni":"fake.example.com","skip-cert-verify":true,"tfo":false}
+  - {"type":"hysteria2","name":"SAP-SG-AZ-KYMA-HY2","server":"a89f6d777d11b497a800b235c2f8ecea-6bb5c3c103ff9cc9.elb.ap-southeast-1.amazonaws.com","port":443,"password":"4MKyhj1JzE","sni":"fake.example.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"LEAFLOW-HK-HY2","server":"178.92.75.5","port":11174,"password":"0952150a-b4ff-40bc-8779-19d8e5b136f3","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
 
 # 节点组

@@ -67,7 +67,7 @@ proxies:
   - {"type":"hysteria2","name":"裸云甲骨文日本","server":"64.110.98.112","port":37261,"password":"3bc0a0ea-cef1-4624-ba77-d211df1a0c40","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"SAP-SG-AZ-KYMA-HY2","server":"a89f6d777d11b497a800b235c2f8ecea-6bb5c3c103ff9cc9.elb.ap-southeast-1.amazonaws.com","port":443,"password":"4MKyhj1JzE","sni":"fake.example.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"LEAFLOW-HK-HY2","server":"178.92.75.5","port":11174,"password":"0952150a-b4ff-40bc-8779-19d8e5b136f3","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
-
+  - {"name":"英鸡argo","type":"vmess","server":"saas.sin.fan","port":443,"cipher":"none","uuid":"d21f21b6-a4fb-4ed2-b669-3b38c289001d","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/vmess-argo","headers":{"Host":"home-closure-descending-italic.trycloudflare.com"},"early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"client-fingerprint":"firefox","servername":"home-closure-descending-italic.trycloudflare.com"}
 # 节点组
 
 

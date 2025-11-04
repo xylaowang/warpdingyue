@@ -48,13 +48,13 @@ proxies:
   - {"type":"tuic","name":"自己德鸡tuic","server":"2a02:180:6:1::79","port":23785,"password":"19aebb35-b458-4d0c-b767-2adb39e6bb02","uuid":"19aebb35-b458-4d0c-b767-2adb39e6bb02","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
   - {"type":"hysteria2","name":"帕斯云美机V6","server":"2604:abc0:103:415:4c53:9bff:fedd:2e6a","port":44072,"password":"7233199c-0ad1-448e-8c68-4e6a5d36596c","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"帕斯云德国panelV4","server":"77.90.52.39","port":6507,"password":"1de836dabdbf1c0924ed7582cd02f7db","sni":"cdn.jsdelivr.net","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"裸云英鸡","server":"212.134.175.97","port":40104,"password":"3bc0a0ea-cef1-4624-ba77-d211df1a0c40","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+  
   - {"type":"vless","name":"BWGvless","server":"216.167.28.45","port":34907,"uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"chrome","skip-cert-verify":false,"reality-opts":{"public-key":"WWa0BlUrNh6hhJMqHbjd6AE703MYW774AYXFWysYqzc","short-id":"3d6e7bff"},"network":"tcp","servername":"www.amd.com"}
   - {"name":"BWGargo","type":"vmess","server":"time.is","port":8443,"cipher":"auto","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/6f8fff58-7e72-4d1c-a0f4-0f2a95244334-vm","headers":{"Host":"bwg.186507.xyz"}},"servername":"bwg.186507.xyz"}
   - {"type":"hysteria2","name":"BWGhy2","server":"216.167.28.45","port":62027,"password":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"tuic","name":"BWGtuic","server":"216.167.28.45","port":18554,"password":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
   - {"type":"hysteria2","name":"CCS","server":"23.94.10.146","port":35366,"password":"d7912833-c44b-40e3-a33f-69cf4237a2b0","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"墨西哥游戏机","server":"103.14.26.47","port":25384,"password":"b10dc10b-1800-4c11-a1a4-9caa1fc3a131","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+  
   - {"type":"hysteria2","name":"韩国游戏机","server":"211.221.75.212","port":26512,"password":"b10dc10b-1800-4c11-a1a4-9caa1fc3a131","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"德国月40金币","server":"65.108.39.249","port":21118,"password":"b10dc10b-1800-4c11-a1a4-9caa1fc3a131","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"name":"通用SAP企业ARGO","type":"vmess","server":"www.wto.org","port":443,"cipher":"auto","uuid":"12881ef8-4205-4842-baf7-9d0e9c0c1a66","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"6.oxxx.qzz.io"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"6.oxxx.qzz.io"}
@@ -64,7 +64,7 @@ proxies:
   - {"name":"cf.tencentapp.cn-企业SAP","type":"vmess","server":"cf.tencentapp.cn","port":443,"cipher":"auto","uuid":"12881ef8-4205-4842-baf7-9d0e9c0c1a66","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"6.oxxx.qzz.io"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"6.oxxx.qzz.io"}
   - {"name":"nrt.xxxxxxxx.nyc.mn-企业SAP","type":"vmess","server":"nrt.xxxxxxxx.nyc.mn","port":443,"cipher":"auto","uuid":"12881ef8-4205-4842-baf7-9d0e9c0c1a66","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"6.oxxx.qzz.io"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"6.oxxx.qzz.io"}
   - {"name":"www.shopify.com-企业SAP","type":"vmess","server":"fn.130519.xyz","port":443,"cipher":"auto","uuid":"12881ef8-4205-4842-baf7-9d0e9c0c1a66","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/laoluo","headers":{"Host":"6.oxxx.qzz.io"}},"client-fingerprint":"","alpn":["http/1.1"],"servername":"6.oxxx.qzz.io"}
-  - {"type":"hysteria2","name":"裸云甲骨文日本","server":"64.110.98.112","port":37261,"password":"3bc0a0ea-cef1-4624-ba77-d211df1a0c40","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+
   - {"type":"hysteria2","name":"SAP-SG-AZ-KYMA-HY2","server":"a89f6d777d11b497a800b235c2f8ecea-6bb5c3c103ff9cc9.elb.ap-southeast-1.amazonaws.com","port":443,"password":"4MKyhj1JzE","sni":"fake.example.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"LEAFLOW-HK-HY2","server":"178.92.75.5","port":11174,"password":"0952150a-b4ff-40bc-8779-19d8e5b136f3","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   

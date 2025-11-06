@@ -67,7 +67,7 @@ proxies:
 
   - {"type":"hysteria2","name":"SAP-SG-AZ-KYMA-HY2","server":"a89f6d777d11b497a800b235c2f8ecea-6bb5c3c103ff9cc9.elb.ap-southeast-1.amazonaws.com","port":443,"password":"4MKyhj1JzE","sni":"fake.example.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"LEAFLOW-HK-HY2","server":"178.92.75.5","port":11174,"password":"0952150a-b4ff-40bc-8779-19d8e5b136f3","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
-  - {"type":"vless","name":"velss-韩国9","server":"123.111.169.70","port":443,"uuid":"3bc0a0ea-cef1-4624-ba77-d211df1a0c40","tls":true,"client-fingerprint":"firefox","skip-cert-verify":true,"network":"ws","ws-opts":{"headers":{"Host":"mik.742929.xyz"},"path":"/","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"encryption":"none","servername":"mik.742929.xyz"}
+  - {"type":"vless","name":"Snippets-vless","server":"sub.danfeng.eu.org","port":443,"uuid":"3bc0a0ea-cef1-4624-ba77-d211df1a0c40","tls":true,"client-fingerprint":"firefox","skip-cert-verify":true,"network":"ws","ws-opts":{"headers":{"Host":"mik.742929.xyz"},"path":"/?ed=2560&proxyip=123.111.169.70:443"},"encryption":"none","servername":"mik.742929.xyz"}
 # 节点组
 
 

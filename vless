@@ -38,7 +38,7 @@ dns:
 
 # 节点配置（示例）
 proxies:
-  - {"type":"hysteria2","name":"爪云日本hy2","server":"47.79.145.174","port":48768,"password":"8bf27de3-fab1-48bf-9ead-ae3751862226","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+  
   - {"type":"tuic","name":"爪云美西","server":"47.88.24.89","port":44712,"password":"8bf27de3-fab1-48bf-9ead-ae3751862226","uuid":"8bf27de3-fab1-48bf-9ead-ae3751862226","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
   - {"type":"hysteria2","name":"群友德鸡","server":"2a02:180:6:1::17a1","port":9528,"password":"abcd1234","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"法鸡LXC","server":"2001:41d0:303:3e79:be24:11ff:fee3:c1d1","port":43574,"password":"328b4584-d039-4f16-9b9d-031117d3b719","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}

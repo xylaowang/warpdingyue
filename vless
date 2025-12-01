@@ -70,6 +70,10 @@ proxies:
  # - {"type":"hysteria2","name":"SAP-SG-AZ-KYMA-HY2","server":"aa2ee292aa3f849509c2a16e89d06270-c87e84440251936b.elb.ap-southeast-1.amazonaws.com","port":443,"password":"4MKyhj1JzE","sni":"fake.example.com","skip-cert-verify":true,"tfo":false}
 #  - {"type":"hysteria2","name":"LEAFLOW-HK-HY2","server":"178.92.75.5","port":11174,"password":"0952150a-b4ff-40bc-8779-19d8e5b136f3","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"vless","name":"Snippets-vless111","server":"sub.danfeng.eu.org","port":443,"uuid":"3bc0a0ea-cef1-4624-ba77-d211df1a0c40","tls":true,"client-fingerprint":"firefox","skip-cert-verify":true,"network":"ws","ws-opts":{"headers":{"Host":"mik.742929.xyz"},"path":"/?ed=2560&proxyip=123.111.169.70:443"},"encryption":"none","servername":"mik.742929.xyz"}
+- {"type":"hysteria2","name":"裸云测试","server":"5.231.31.87","port":41524,"password":"3bc0a0ea-cef1-4624-ba77-d211df1a0c40","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+
+
+
 # 节点组
 
 

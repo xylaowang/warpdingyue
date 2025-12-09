@@ -70,7 +70,7 @@ proxies:
   - {"type":"vless","name":"ARGO企业版nrt","server":"nrt.xxxxxxxx.nyc.mn","port":443,"uuid":"d274970d-0cac-486a-a22b-7fcbe2d5ab83","tls":true,"client-fingerprint":"firefox","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"6.oxxx.qzz.io"},"path":"/vless-argo","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"encryption":"none","servername":"6.oxxx.qzz.io"}
   - {"type":"vless","name":"ARGO企业版wto","server":"www.wto.org","port":443,"uuid":"d274970d-0cac-486a-a22b-7fcbe2d5ab83","tls":true,"client-fingerprint":"firefox","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"6.oxxx.qzz.io"},"path":"/vless-argo","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"encryption":"none","servername":"6.oxxx.qzz.io"}
   - {"type":"vless","name":"ARGO企业版saas","server":"saas.sin.fan","port":443,"uuid":"d274970d-0cac-486a-a22b-7fcbe2d5ab83","tls":true,"client-fingerprint":"firefox","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"6.oxxx.qzz.io"},"path":"/vless-argo","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"encryption":"none","servername":"6.oxxx.qzz.io"}
-
+  - {"type":"hysteria2","name":"裸云日本","server":"64.110.98.112","port":44785,"password":"3bc0a0ea-cef1-4624-ba77-d211df1a0c40","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
 # 节点组
 
 

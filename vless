@@ -73,7 +73,7 @@ proxies:
   - {"type":"vless","name":"ARGO企业版saas","server":"saas.sin.fan","port":443,"uuid":"d274970d-0cac-486a-a22b-7fcbe2d5ab83","tls":true,"client-fingerprint":"firefox","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"6.oxxx.qzz.io"},"path":"/vless-argo","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"encryption":"none","servername":"6.oxxx.qzz.io"}
   - {"type":"hysteria2","name":"裸云日本","server":"64.110.98.112","port":44785,"password":"3bc0a0ea-cef1-4624-ba77-d211df1a0c40","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"tuic","name":"猫云测试v6","server":"2604:a00:50:1e6::11ff","port":34969,"password":"8e8bd8e3-2a26-4888-a295-83e32fb44cce","uuid":"8e8bd8e3-2a26-4888-a295-83e32fb44cce","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
-  - {"type":"tuic","name":"裸云德国tuic","server":"2a0f:b240:12:a3::b","port":14592,"password":"181a0ba9-5b0a-4175-9cc9-06f0d52330d5","uuid":"181a0ba9-5b0a-4175-9cc9-06f0d52330d5","sni":"www.bing.com","alpn":["h3"],"congestion-controller":"bbr","version":5}
+ 
   - {"type":"tuic","name":"法国lxcv6","server":"2001:41d0:a:33b2::2d9","port":34887,"password":"868802b7-35bd-4df1-9265-48774deefe0a","uuid":"868802b7-35bd-4df1-9265-48774deefe0a","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
 
 

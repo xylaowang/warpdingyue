@@ -76,7 +76,7 @@ proxies:
   - {"type":"tuic","name":"猫云测试v6","server":"2604:a00:50:1e6::11ff","port":34969,"password":"8e8bd8e3-2a26-4888-a295-83e32fb44cce","uuid":"8e8bd8e3-2a26-4888-a295-83e32fb44cce","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
  
   - {"type":"tuic","name":"法国lxcv6","server":"2001:41d0:a:33b2::2d9","port":34887,"password":"868802b7-35bd-4df1-9265-48774deefe0a","uuid":"868802b7-35bd-4df1-9265-48774deefe0a","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
-
+  - {"type":"tuic","name":"tu5-debian","server":"2001:470:4892:2d:be24:11ff:fee1:4643","port":18554,"password":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
 
 
 # 节点组

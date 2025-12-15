@@ -55,7 +55,7 @@ proxies:
   - {"name":"BWGargo","type":"vmess","server":"time.is","port":8443,"cipher":"auto","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/6f8fff58-7e72-4d1c-a0f4-0f2a95244334-vm","headers":{"Host":"bwg.186507.xyz"}},"servername":"bwg.186507.xyz"}
   - {"type":"hysteria2","name":"BWGhy2","server":"216.167.28.45","port":62027,"password":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"tuic","name":"BWGtuic","server":"216.167.28.45","port":18554,"password":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
-  - {"type":"tuic","name":"BWGtuicV6","server":"2001:470:4892:2d:be24:11ff:fee1:4643","port":18554,"password":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
+ 
   - {"type":"hysteria2","name":"CCS","server":"23.94.10.146","port":35366,"password":"d7912833-c44b-40e3-a33f-69cf4237a2b0","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   
   - {"type":"hysteria2","name":"韩国游戏机","server":"211.221.75.212","port":26512,"password":"b10dc10b-1800-4c11-a1a4-9caa1fc3a131","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
@@ -65,7 +65,6 @@ proxies:
   - {"name":"帕斯云土耳其argo","type":"vmess","server":"www.wto.org","port":8443,"cipher":"auto","uuid":"5d29a3a2-a9b4-48e9-a83e-d268974f9f1e","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/5d29a3a2-a9b4-48e9-a83e-d268974f9f1e-vm","headers":{"Host":"pastrq.186507.xyz"}},"servername":"pastrq.186507.xyz"}
  # - {"type":"hysteria2","name":"SAP-SG-AZ-KYMA-HY2","server":"aa2ee292aa3f849509c2a16e89d06270-c87e84440251936b.elb.ap-southeast-1.amazonaws.com","port":443,"password":"4MKyhj1JzE","sni":"fake.example.com","skip-cert-verify":true,"tfo":false}
 #  - {"type":"hysteria2","name":"LEAFLOW-HK-HY2","server":"178.92.75.5","port":11174,"password":"0952150a-b4ff-40bc-8779-19d8e5b136f3","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
-  - {"type":"vless","name":"Snippets-vless111","server":"sub.danfeng.eu.org","port":443,"uuid":"3bc0a0ea-cef1-4624-ba77-d211df1a0c40","tls":true,"client-fingerprint":"firefox","skip-cert-verify":true,"network":"ws","ws-opts":{"headers":{"Host":"mik.742929.xyz"},"path":"/?ed=2560&proxyip=123.111.169.70:443"},"encryption":"none","servername":"mik.742929.xyz"}
   - {"type":"hysteria2","name":"裸云测试","server":"5.231.31.87","port":41524,"password":"3bc0a0ea-cef1-4624-ba77-d211df1a0c40","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"vless","name":"帕斯云web德国","server":"saas.sin.fan","port":443,"uuid":"328b4584-d039-4f16-9b9d-031117d3b719","tls":true,"client-fingerprint":"chrome","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"pasweb.186507.xyz"},"path":"/"},"encryption":"none","servername":"pasweb.186507.xyz"}
   - {"type":"hysteria2","name":"裸云德国","server":"2a0f:b240:12:a3::b","port":38143,"password":"181a0ba9-5b0a-4175-9cc9-06f0d52330d5","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
@@ -76,7 +75,7 @@ proxies:
   - {"type":"tuic","name":"猫云测试v6","server":"2604:a00:50:1e6::11ff","port":34969,"password":"8e8bd8e3-2a26-4888-a295-83e32fb44cce","uuid":"8e8bd8e3-2a26-4888-a295-83e32fb44cce","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
  
   - {"type":"tuic","name":"法国lxcv6","server":"2001:41d0:a:33b2::2d9","port":34887,"password":"868802b7-35bd-4df1-9265-48774deefe0a","uuid":"868802b7-35bd-4df1-9265-48774deefe0a","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
-  - {"type":"tuic","name":"tu5-debian","server":"2001:470:4892:2d:be24:11ff:fee1:4643","port":18554,"password":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
+
 
 
 # 节点组

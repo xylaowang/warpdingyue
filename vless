@@ -52,7 +52,7 @@ proxies:
   - {"type":"hysteria2","name":"帕斯云德国panelV4","server":"77.90.52.39","port":6507,"password":"1de836dabdbf1c0924ed7582cd02f7db","sni":"cdn.jsdelivr.net","skip-cert-verify":true,"tfo":false}
   
   - {"type":"vless","name":"BWGvless","server":"216.167.28.45","port":34907,"uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"chrome","skip-cert-verify":false,"reality-opts":{"public-key":"WWa0BlUrNh6hhJMqHbjd6AE703MYW774AYXFWysYqzc","short-id":"3d6e7bff"},"network":"tcp","servername":"www.amd.com"}
-  - {"name":"BWGargo","type":"vmess","server":"time.is","port":8443,"cipher":"auto","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/6f8fff58-7e72-4d1c-a0f4-0f2a95244334-vm","headers":{"Host":"bwg.186507.xyz"}},"servername":"bwg.186507.xyz"}
+  - {"name":"BWGargo","type":"vmess","server":"www.wto.org","port":8443,"cipher":"auto","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/6f8fff58-7e72-4d1c-a0f4-0f2a95244334-vm","headers":{"Host":"bwg.186507.xyz"}},"servername":"bwg.186507.xyz"}
   - {"type":"hysteria2","name":"BWGhy2","server":"216.167.28.45","port":62027,"password":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"tuic","name":"BWGtuic","server":"216.167.28.45","port":18554,"password":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
  

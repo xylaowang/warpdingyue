@@ -47,17 +47,25 @@ proxies:
   
   - {"name":"ARGOBWG-WTO","type":"vmess","server":"www.wto.org","port":8443,"cipher":"auto","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/6f8fff58-7e72-4d1c-a0f4-0f2a95244334-vm","headers":{"Host":"bwg.186507.xyz"}},"servername":"bwg.186507.xyz"}
   - {"name":"ARGOBWG-NRT","type":"vmess","server":"nrt.xxxxxxxx.nyc.mn","port":8443,"cipher":"auto","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/6f8fff58-7e72-4d1c-a0f4-0f2a95244334-vm","headers":{"Host":"bwg.186507.xyz"}},"servername":"bwg.186507.xyz"}
+  - {"name":"ARGOBWG-ubi","type":"vmess","server":"store.ubi.com","port":8443,"cipher":"auto","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/6f8fff58-7e72-4d1c-a0f4-0f2a95244334-vm","headers":{"Host":"bwg.186507.xyz"}},"servername":"bwg.186507.xyz"}
+  - {"name":"ARGOBWG-NRT","type":"vmess","server":"www.shopify.com","port":8443,"cipher":"auto","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/6f8fff58-7e72-4d1c-a0f4-0f2a95244334-vm","headers":{"Host":"bwg.186507.xyz"}},"servername":"bwg.186507.xyz"}
  
   - {"name":"ARGOBWG-SAAS","type":"vmess","server":"saas.sin.fan","port":8443,"cipher":"auto","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/6f8fff58-7e72-4d1c-a0f4-0f2a95244334-vm","headers":{"Host":"bwg.186507.xyz"}},"servername":"bwg.186507.xyz"}
   - {"name":"ARGO帕斯云土耳其-WTO","type":"vmess","server":"www.wto.org","port":8443,"cipher":"auto","uuid":"5d29a3a2-a9b4-48e9-a83e-d268974f9f1e","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/5d29a3a2-a9b4-48e9-a83e-d268974f9f1e-vm","headers":{"Host":"pasteq.186507.xyz"}},"servername":"pasteq.186507.xyz"}
   - {"name":"ARGO帕斯云土耳其-SAAS","type":"vmess","server":"saas.sin.fan","port":8443,"cipher":"auto","uuid":"5d29a3a2-a9b4-48e9-a83e-d268974f9f1e","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/5d29a3a2-a9b4-48e9-a83e-d268974f9f1e-vm","headers":{"Host":"pasteq.186507.xyz"}},"servername":"pasteq.186507.xyz"}
   - {"name":"ARGO帕斯云土耳其-NRT","type":"vmess","server":"nrt.xxxxxxxx.nyc.mn","port":8443,"cipher":"auto","uuid":"5d29a3a2-a9b4-48e9-a83e-d268974f9f1e","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/5d29a3a2-a9b4-48e9-a83e-d268974f9f1e-vm","headers":{"Host":"pasteq.186507.xyz"}},"servername":"pasteq.186507.xyz"}
+  - {"name":"ARGO帕斯云土耳其-ubi","type":"vmess","server":"store.ubi.com","port":8443,"cipher":"auto","uuid":"5d29a3a2-a9b4-48e9-a83e-d268974f9f1e","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/5d29a3a2-a9b4-48e9-a83e-d268974f9f1e-vm","headers":{"Host":"pasteq.186507.xyz"}},"servername":"pasteq.186507.xyz"}
+  - {"name":"ARGO帕斯云土耳其-shopify","type":"vmess","server":"www.shopify.com","port":8443,"cipher":"auto","uuid":"5d29a3a2-a9b4-48e9-a83e-d268974f9f1e","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/5d29a3a2-a9b4-48e9-a83e-d268974f9f1e-vm","headers":{"Host":"pasteq.186507.xyz"}},"servername":"pasteq.186507.xyz"}
   
+
+
   - {"type":"vless","name":"ARGO企业版nrt","server":"nrt.xxxxxxxx.nyc.mn","port":443,"uuid":"d274970d-0cac-486a-a22b-7fcbe2d5ab83","tls":true,"client-fingerprint":"firefox","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"6.oxxx.qzz.io"},"path":"/vless-argo","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"encryption":"none","servername":"6.oxxx.qzz.io"}
   - {"type":"vless","name":"ARGO企业版wto","server":"www.wto.org","port":443,"uuid":"d274970d-0cac-486a-a22b-7fcbe2d5ab83","tls":true,"client-fingerprint":"firefox","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"6.oxxx.qzz.io"},"path":"/vless-argo","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"encryption":"none","servername":"6.oxxx.qzz.io"}
   - {"type":"vless","name":"ARGO企业版saas","server":"saas.sin.fan","port":443,"uuid":"d274970d-0cac-486a-a22b-7fcbe2d5ab83","tls":true,"client-fingerprint":"firefox","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"6.oxxx.qzz.io"},"path":"/vless-argo","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"encryption":"none","servername":"6.oxxx.qzz.io"}
+  - {"type":"vless","name":"ARGO企业版shopify","server":"www.shopify.com","port":443,"uuid":"d274970d-0cac-486a-a22b-7fcbe2d5ab83","tls":true,"client-fingerprint":"firefox","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"6.oxxx.qzz.io"},"path":"/vless-argo","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"encryption":"none","servername":"6.oxxx.qzz.io"}
+  - {"type":"vless","name":"ARGO企业版ubi","server":"store.ubi.com","port":443,"uuid":"d274970d-0cac-486a-a22b-7fcbe2d5ab83","tls":true,"client-fingerprint":"firefox","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"6.oxxx.qzz.io"},"path":"/vless-argo","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"encryption":"none","servername":"6.oxxx.qzz.io"}
   
-
+store.ubi.com
 
 # 节点组
 

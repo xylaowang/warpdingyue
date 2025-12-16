@@ -64,6 +64,10 @@ proxies:
   - {"type":"vless","name":"ARGO企业版saas","server":"saas.sin.fan","port":443,"uuid":"d274970d-0cac-486a-a22b-7fcbe2d5ab83","tls":true,"client-fingerprint":"firefox","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"6.oxxx.qzz.io"},"path":"/vless-argo","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"encryption":"none","servername":"6.oxxx.qzz.io"}
   - {"type":"vless","name":"ARGO企业版shopify","server":"www.shopify.com","port":443,"uuid":"d274970d-0cac-486a-a22b-7fcbe2d5ab83","tls":true,"client-fingerprint":"firefox","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"6.oxxx.qzz.io"},"path":"/vless-argo","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"encryption":"none","servername":"6.oxxx.qzz.io"}
   - {"type":"vless","name":"ARGO企业版ubi","server":"store.ubi.com","port":443,"uuid":"d274970d-0cac-486a-a22b-7fcbe2d5ab83","tls":true,"client-fingerprint":"firefox","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"6.oxxx.qzz.io"},"path":"/vless-argo","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"encryption":"none","servername":"6.oxxx.qzz.io"}
+  - {"type":"vless","name":"ARGO企业版cfyes","server":"198.41.208.155","port":443,"uuid":"d274970d-0cac-486a-a22b-7fcbe2d5ab83","tls":true,"client-fingerprint":"firefox","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"6.oxxx.qzz.io"},"path":"/vless-argo","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"encryption":"none","servername":"6.oxxx.qzz.io"}
+
+
+
 
 # 节点组
 

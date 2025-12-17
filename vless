@@ -79,8 +79,6 @@ proxies:
   - {"type":"tuic","name":"猫云测试v6","server":"2604:a00:50:1e6::11ff","port":34969,"password":"8e8bd8e3-2a26-4888-a295-83e32fb44cce","uuid":"8e8bd8e3-2a26-4888-a295-83e32fb44cce","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
  
   - {"type":"tuic","name":"法国lxcv6","server":"2001:41d0:a:33b2::2d9","port":34887,"password":"868802b7-35bd-4df1-9265-48774deefe0a","uuid":"868802b7-35bd-4df1-9265-48774deefe0a","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
-  - {"type":"ss","server":"cdns.doon.eu.org","port":443,"cipher":"chacha20-ietf-poly1305","password":"328b4584-d039-4f16-9b9d-031117d3b719","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","path":"/ss-argo","tls":true,mux: false},"name":"sap---SS"}
-  - {"type":"ss","server":"nrt.xxxxxxxx.nyc.mn","port":443,"cipher":"chacha20-ietf-poly1305","password":"a7346b99-6ded-4858-bd31-7457799a469d","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","path":"/ss-argo","tls":true,mux: false},"name":"SAP-SG-AZ-SS-ARGO"}
   - {name: SAP-SG-AZ-SS-ARGO11, server: cdns.doon.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: a7346b99-6ded-4858-bd31-7457799a469d, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: 8.oxxx.qzz.io, path: /ss-argo, tls: true, mux: false}}
   - {name: sap---SS11, server: cdns.doon.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 328b4584-d039-4f16-9b9d-031117d3b719, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: sap.186507.xyz, path: /ss-argo, tls: true, mux: false}}
 

@@ -62,7 +62,7 @@ proxies:
  
   - {"type":"hysteria2","name":"CCS","server":"23.94.10.146","port":35366,"password":"d7912833-c44b-40e3-a33f-69cf4237a2b0","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   
-  - {"type":"hysteria2","name":"韩国游戏机","server":"211.221.75.212","port":26512,"password":"b10dc10b-1800-4c11-a1a4-9caa1fc3a131","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+#  - {"type":"hysteria2","name":"韩国游戏机","server":"211.221.75.212","port":26512,"password":"b10dc10b-1800-4c11-a1a4-9caa1fc3a131","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"德国月40金币","server":"65.108.39.249","port":21118,"password":"b10dc10b-1800-4c11-a1a4-9caa1fc3a131","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   
   - {"type":"tuic","name":"帕斯云土耳其tuic","server":"45.95.214.224","port":18651,"password":"5d29a3a2-a9b4-48e9-a83e-d268974f9f1e","uuid":"5d29a3a2-a9b4-48e9-a83e-d268974f9f1e","congestion-controller":"bbr","udp-relay-mode":"native","alpn":["h3"],"sni":"www.bing.com","skip-cert-verify":true,"allowInsecure":"1","version":5}
@@ -71,7 +71,6 @@ proxies:
 #  - {"type":"hysteria2","name":"LEAFLOW-HK-HY2","server":"178.92.75.5","port":11174,"password":"0952150a-b4ff-40bc-8779-19d8e5b136f3","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"裸云测试","server":"5.231.31.87","port":41524,"password":"3bc0a0ea-cef1-4624-ba77-d211df1a0c40","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"vless","name":"帕斯云web德国","server":"saas.sin.fan","port":443,"uuid":"328b4584-d039-4f16-9b9d-031117d3b719","tls":true,"client-fingerprint":"chrome","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"pasweb.186507.xyz"},"path":"/"},"encryption":"none","servername":"pasweb.186507.xyz"}
-  - {"type":"hysteria2","name":"裸云德国","server":"2a0f:b240:12:a3::b","port":38143,"password":"181a0ba9-5b0a-4175-9cc9-06f0d52330d5","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"vless","name":"ARGO企业版nrt","server":"nrt.xxxxxxxx.nyc.mn","port":443,"uuid":"d274970d-0cac-486a-a22b-7fcbe2d5ab83","tls":true,"client-fingerprint":"firefox","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"6.oxxx.qzz.io"},"path":"/vless-argo","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"encryption":"none","servername":"6.oxxx.qzz.io"}
   - {"type":"vless","name":"ARGO企业版wto","server":"www.wto.org","port":443,"uuid":"d274970d-0cac-486a-a22b-7fcbe2d5ab83","tls":true,"client-fingerprint":"firefox","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"6.oxxx.qzz.io"},"path":"/vless-argo","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"encryption":"none","servername":"6.oxxx.qzz.io"}
   - {"type":"vless","name":"ARGO企业版saas","server":"saas.sin.fan","port":443,"uuid":"d274970d-0cac-486a-a22b-7fcbe2d5ab83","tls":true,"client-fingerprint":"firefox","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"6.oxxx.qzz.io"},"path":"/vless-argo","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"encryption":"none","servername":"6.oxxx.qzz.io"}

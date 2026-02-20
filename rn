@@ -50,7 +50,7 @@ proxies:
   
 
 
-- {"name":"ARGOBWG-WTO","type":"vmess","server":"www.wto.org","port":8443,"cipher":"auto","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/6f8fff58-7e72-4d1c-a0f4-0f2a95244334-vm","headers":{"Host":"bwg.186507.xyz"}},"servername":"bwg.186507.xyz"}
+  - {"name":"ARGOBWG-WTO","type":"vmess","server":"www.wto.org","port":8443,"cipher":"auto","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/6f8fff58-7e72-4d1c-a0f4-0f2a95244334-vm","headers":{"Host":"bwg.186507.xyz"}},"servername":"bwg.186507.xyz"}
   - {"name":"ARGOBWG-NRT","type":"vmess","server":"nrt.xxxxxxxx.nyc.mn","port":8443,"cipher":"auto","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/6f8fff58-7e72-4d1c-a0f4-0f2a95244334-vm","headers":{"Host":"bwg.186507.xyz"}},"servername":"bwg.186507.xyz"}
   - {"name":"ARGOBWG-ubi","type":"vmess","server":"store.ubi.com","port":8443,"cipher":"auto","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/6f8fff58-7e72-4d1c-a0f4-0f2a95244334-vm","headers":{"Host":"bwg.186507.xyz"}},"servername":"bwg.186507.xyz"}
   - {"name":"ARGOBWG-shopify","type":"vmess","server":"www.shopify.com","port":8443,"cipher":"auto","uuid":"6f8fff58-7e72-4d1c-a0f4-0f2a95244334","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/6f8fff58-7e72-4d1c-a0f4-0f2a95244334-vm","headers":{"Host":"bwg.186507.xyz"}},"servername":"bwg.186507.xyz"}
